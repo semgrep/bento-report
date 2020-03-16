@@ -5,13 +5,14 @@
 This script configures [Bento](https://github.com/returntocorp/bento)
 for commonly used security reporting setups.
 
+## Installation
+
+```
+$ curl -Lo /usr/local/bin/setup-bento-report https://raw.githubusercontent.com/returntocorp/bento-report/master/setup-bento-report
+$ chmod +x setup-bento-report
+```
+
 ## Usage
-
-To start, download the `setup-bento-report` script.
-It's recommended to save it to `/usr/local/bin` or similar,
-so that it's always in your `PATH`.
-
-Once you have the script, just run
 
 ```
 $ setup-bento-report
