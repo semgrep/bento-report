@@ -34,9 +34,9 @@ Assuming that the provided directory looks like this:
 
 ```
 ~/.bento-report-configs
-??? lukes-special-edition-bento
-    ??? .bentoignore
-    ??? config.yml
+└── lukes-special-edition-bento
+    ├── .bentoignore
+    └── config.yml
 ```
 
 ## Contributing
