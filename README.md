@@ -9,7 +9,7 @@ for commonly used security reporting setups.
 
 ```
 $ curl -Lo /usr/local/bin/setup-bento-report https://raw.githubusercontent.com/returntocorp/bento-report/master/setup-bento-report
-$ chmod +x setup-bento-report
+$ chmod +x /usr/local/bin/setup-bento-report
 ```
 
 ## Usage
