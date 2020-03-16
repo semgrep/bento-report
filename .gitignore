@@ -201,3 +201,5 @@ dmypy.json
 
 # bento
 **/.bento/cache
+
+!configs/*/.bentoignore
