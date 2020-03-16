@@ -2,6 +2,8 @@ autorun:
   block: true
 formatter:
 - histo: {}
+- clippy: {}
+- histo: {}
 tools:
   bandit:
     ignore:
