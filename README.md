@@ -11,7 +11,6 @@ To start, download the `setup-bento-report` script.
 It's recommended to save it to `/usr/local/bin` or similar,
 so that it's always in your `PATH`.
 
-
 Once you have the script, just run
 
 ```
@@ -23,6 +22,21 @@ You can select an alternative one by specifying its name:
 
 ```
 $ setup-bento-report --config django
+```
+
+or if its your own local config template, its path:
+
+```
+$ setup-bento-report --config ~/.bento-report-configs/lukes-special-edition-bento
+```
+
+Assuming that the provided directory looks like this:
+
+```
+~/.bento-report-configs
+??? lukes-special-edition-bento
+    ??? .bentoignore
+    ??? config.yml
 ```
 
 ## Contributing

@@ -18,12 +18,19 @@ CONFIG_URL_TEMPLATE = "https://github.com/returntocorp/bento-report/blob/master/
 
 
 def fetch_file(path: Path):
-    config_url = CONFIG_URL_TEMPLATE.format(
-        config_name=args.config, config_file=path.name
-    )
+    if "/" in args.config:
+        # source is a local path
+        source_url = f"file://{args.config}/{path.name}"
+    else:
+        source_url = CONFIG_URL_TEMPLATE.format(
+            config_name=args.config, config_file=path.name
+        )
+
+    print(f"Fetching {path}'s content from {source_url}")
+
     with path.open("wb") as output_file:
-        response = urllib.request.urlopen(config_url)
-        output_file.write(response.read())
+        with urllib.request.urlopen(source_url) as response:
+            output_file.write(response.read())
 
 
 def main():
