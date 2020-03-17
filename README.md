@@ -8,27 +8,27 @@ for commonly used security reporting setups.
 ## Installation
 
 ```
-$ curl -Lo /usr/local/bin/setup-bento-report https://raw.githubusercontent.com/returntocorp/bento-report/master/setup-bento-report
-$ chmod +x /usr/local/bin/setup-bento-report
+$ curl -Lo /usr/local/bin/bento-report-init https://raw.githubusercontent.com/returntocorp/bento-report/master/bento-report-init
+$ chmod +x /usr/local/bin/bento-report-init
 ```
 
 ## Usage
 
 ```
-$ setup-bento-report
+$ bento-report-init
 ```
 
 to fetch the default security reporting configuration.
 You can select an alternative one by specifying its name:
 
 ```
-$ setup-bento-report --config django
+$ bento-report-init --config django
 ```
 
 or if its your own local config template, its path:
 
 ```
-$ setup-bento-report --config ~/.bento-report-configs/lukes-special-edition-bento
+$ bento-report-init --config ~/.bento-report-configs/lukes-special-edition-bento
 ```
 
 Assuming that the provided directory looks like this:
