@@ -39,6 +39,7 @@ tools:
     ignore:
     - bad-wildcard-import
     - bare-except-bugbear
+    - invalid-escape
     - no-getattr
     - no-setattr
     - parse-error
