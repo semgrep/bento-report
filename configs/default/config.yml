@@ -9,12 +9,14 @@ tools:
     ignore:
     - any-other-function-with-shell-equals-true
     - assert-used
+    - error
     - hardcoded-bind-all-interfaces
     - hardcoded-password-default
     - hardcoded-password-funcarg
     - hardcoded-password-string
     - hardcoded-sql-expressions
     - hardcoded-tmp-directory
+    - import_xml-etree
     - import-lxml
     - import-pickle
     - import-subprocess
@@ -22,7 +24,6 @@ tools:
     - import-xml-minidom
     - import-xml-pulldom
     - import-xml-sax
-    - import_xml-etree
     - md5
     - random
     - start-process-with-no-shell
@@ -40,6 +41,7 @@ tools:
     - bare-except-bugbear
     - no-getattr
     - no-setattr
+    - parse-error
     - unused-loop-variable
     - unused-module
     - unused-variable
