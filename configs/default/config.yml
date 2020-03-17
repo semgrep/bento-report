@@ -30,6 +30,7 @@ tools:
     - start-process-with-partial-path
     - subprocess-without-shell-equals-true
     - try-except-continue
+    - try-except-pass
     - urllib-urlopen
     run: true
   dlint:
