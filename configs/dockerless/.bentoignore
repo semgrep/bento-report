@@ -4,7 +4,6 @@
 # Ignore git items
 .gitignore
 .git/
-:include .gitignore
 
 # Common large directories
 node_modules/
