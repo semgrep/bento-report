@@ -8,7 +8,7 @@ for commonly used security reporting setups.
 ## Installation
 
 ```
-$ curl -Lo /usr/local/bin/bento-report-init https://raw.githubusercontent.com/returntocorp/bento-report/master/bento-report-init
+$ curl -Lo /usr/local/bin/bento-report-init https://git.io/bento-report-init
 $ chmod +x /usr/local/bin/bento-report-init
 ```
 
