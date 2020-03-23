@@ -13,3 +13,7 @@ env/
 .env/
 venv/
 .venv/
+
+# Common test code paths
+test/
+tests/
