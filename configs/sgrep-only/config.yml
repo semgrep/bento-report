@@ -1,0 +1,10 @@
+autorun:
+  block: true
+formatter:
+- histo: {}
+- clippy: {}
+- histo: {}
+tools:
+  sgrep:
+    ignore: []
+    run: true
